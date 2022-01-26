@@ -5,5 +5,5 @@ a.nav-link.active{
 }
 
 a.nav-item.dropdown{
-    display: inline-block;
+    display: inline;
 }
