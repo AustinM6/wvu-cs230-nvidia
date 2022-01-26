@@ -1,0 +1,9 @@
+a.nav-link.active{
+    border-bottom-style: solid;
+    border-color:yellowgreen;
+    border-width: 4px;
+}
+
+a.nav-item.dropdown{
+    display: inline-block;
+}
