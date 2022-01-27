@@ -4,6 +4,3 @@ a.nav-link.active{
     border-width: 4px;
 }
 
-a.nav-item.dropdown{
-    display: inline;
-}
