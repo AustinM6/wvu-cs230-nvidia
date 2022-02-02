@@ -9,4 +9,13 @@
 .btn{
     background-color: yellowgreen;
 }
+.carousel-middle{
+    top: 200px;
+    left: 200px;
+
+}
+.carousel-center{
+    top: 175px;
+    left: 35px;
+}
    
