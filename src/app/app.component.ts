@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { category_list } from './store/category_list';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nvidia';
+  category_list: any = category_list;
+
+  constructor() {
+
+  }
 }

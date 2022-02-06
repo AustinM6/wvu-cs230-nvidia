@@ -1,3 +1,9 @@
 <fm-topnavbar>Loading...</fm-topnavbar>
 <fm-carousel>Loading...</fm-carousel>
-<fm-category-card>Loading...</fm-category-card>
+
+<div class="container-fluid d-flex">
+    <div *ngFor="let category of category_list">
+        <fm-category-card img={{category.img}} name={{category.name}} description={{category.desciription}} >Loading...</fm-category-card>
+    </div>
+   
+</div>
