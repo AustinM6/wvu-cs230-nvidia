@@ -15,5 +15,4 @@ export class CategoryCardComponent{
         this.name = "missing name";
         this.description = "Missing description";
     }
-
 }
