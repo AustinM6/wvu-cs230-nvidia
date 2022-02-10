@@ -5,16 +5,21 @@ import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { TopNavBarComponent } from './header/topnavbar.component';
 import { CategoryCardComponent } from './store/category.card.component';
+import { AppRoutingModule } from './app-routing.module';
+import { DesignerLinenLayoutComponent } from './store/designer-linen-layout.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     CarouselComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    DesignerLinenLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
