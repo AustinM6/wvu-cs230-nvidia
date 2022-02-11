@@ -2,11 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { DesignerLinenLayoutComponent } from './store/designer-linen-layout.component';
+import { HomeLayoutComponent } from './store/home-layout.component';
 
 
 const routes: Routes = [
   {
-    path:'Designer-Linen', component: DesignerLinenLayoutComponent
+    path: '', component: HomeLayoutComponent
+  },
+  {
+    path: 'Designer-Linen', component: DesignerLinenLayoutComponent
+  },
+  {
+    path: 'home', component: HomeLayoutComponent
   }
 ];
 

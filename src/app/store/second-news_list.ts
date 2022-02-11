@@ -1,4 +1,4 @@
-export const news2_list = [
+export const second_news_list = [
     {
         img: "/assets/n5.jpg ",
         name: "NVIDIA and Google Help Developers BUILD AI Faster",

@@ -7,6 +7,7 @@ import { TopNavBarComponent } from './header/topnavbar.component';
 import { CategoryCardComponent } from './store/category.card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DesignerLinenLayoutComponent } from './store/designer-linen-layout.component';
+import { HomeLayoutComponent } from './store/home-layout.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { DesignerLinenLayoutComponent } from './store/designer-linen-layout.comp
     TopNavBarComponent,
     CarouselComponent,
     CategoryCardComponent,
-    DesignerLinenLayoutComponent
+    DesignerLinenLayoutComponent,
+    HomeLayoutComponent,
   ],
   imports: [
     BrowserModule,

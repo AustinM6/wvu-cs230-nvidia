@@ -1,4 +1,4 @@
-export const news_list = [
+export const first_news_list = [
     {
         img: "/assets/n1.jpg ",
         name: "NVIDIA Merlin Helps Fuel Clicks for Online Giants",

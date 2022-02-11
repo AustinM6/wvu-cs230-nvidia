@@ -1,0 +1,61 @@
+
+<fm-carousel>Loading...</fm-carousel>
+
+<div>
+    &nbsp;
+</div>
+
+<div class="d-flex justify-content-center">
+    <h1 style="color:yellowgreen">SHOP</h1>
+</div>
+<div class="container-fluid d-flex justify-content-center">
+    <div class="row row-cols-4 align-items-start">
+        <div *ngFor="let category of categories">
+            <fm-category-card img={{category.img}} name={{category.name}} description={{category.description}}>
+                Loading...
+            </fm-category-card>
+        </div>
+    </div>
+</div>
+<div>
+    &nbsp;
+</div>
+
+<div class="d-flex justify-content-center">
+    <h1 style="color:yellowgreen">GAMING</h1>
+</div>
+<div class="container-fluid d-flex justify-content-evenly">
+    <div class="row row-cols-4 align-items-start">
+        <div *ngFor="let gaming of gamings">
+            <fm-category-card class="sm_card" img={{gaming.img}} name={{gaming.name}} description={{gaming.description}}>
+                Loading...
+            </fm-category-card>
+        </div>
+    </div>
+</div>
+
+<div>
+    &nbsp;
+</div>
+
+<div class="d-flex justify-content-center">
+    <h1 style="color:yellowgreen">LATEST NEWS</h1>
+</div>
+<div class="container-fluid d-flex justify-content-evenly">
+    <div class="row row-cols-4 align-items-start">
+        <div *ngFor="let new1 of news1">
+            <fm-category-card img={{new1.img}} name={{new1.name}} description={{new1.description}}>
+                Loading...
+            </fm-category-card>
+        </div>
+    </div>
+</div>
+<div class="container-fluid d-flex justify-content-evenly">
+    <div class="row row-cols-4 align-items-start">
+        <div *ngFor="let new2 of news2">
+            <fm-category-card img={{new2.img}} name={{new2.name}} description={{new2.description}}>
+                Loading...
+            </fm-category-card>
+        </div>
+    </div>
+</div>
