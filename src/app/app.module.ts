@@ -8,6 +8,7 @@ import { CategoryCardComponent } from './store/category.card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ShopLayoutComponent } from './store/shop-layout.component';
 import { HomeLayoutComponent } from './store/home-layout.component';
+import { DriversLayoutComponent } from './store/drivers-layout.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HomeLayoutComponent } from './store/home-layout.component';
     CategoryCardComponent,
     ShopLayoutComponent,
     HomeLayoutComponent,
+    DriversLayoutComponent
   ],
   imports: [
     BrowserModule,

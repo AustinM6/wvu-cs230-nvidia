@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { ShopLayoutComponent } from './store/shop-layout.component';
 import { HomeLayoutComponent } from './store/home-layout.component';
+import { DriversLayoutComponent } from './store/drivers-layout.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,9 @@ const routes: Routes = [
   },
   {
     path: 'home', component: HomeLayoutComponent
+  },
+  {
+    path: 'drivers', component: DriversLayoutComponent
   }
 ];
 
