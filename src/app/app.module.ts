@@ -6,7 +6,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { TopNavBarComponent } from './header/topnavbar.component';
 import { CategoryCardComponent } from './store/category.card.component';
 import { AppRoutingModule } from './app-routing.module';
-import { DesignerLinenLayoutComponent } from './store/designer-linen-layout.component';
+import { ShopLayoutComponent } from './store/shop-layout.component';
 import { HomeLayoutComponent } from './store/home-layout.component';
 
 
@@ -16,7 +16,7 @@ import { HomeLayoutComponent } from './store/home-layout.component';
     TopNavBarComponent,
     CarouselComponent,
     CategoryCardComponent,
-    DesignerLinenLayoutComponent,
+    ShopLayoutComponent,
     HomeLayoutComponent,
   ],
   imports: [

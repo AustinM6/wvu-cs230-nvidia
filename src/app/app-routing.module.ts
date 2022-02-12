@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { DesignerLinenLayoutComponent } from './store/designer-linen-layout.component';
+import { ShopLayoutComponent } from './store/shop-layout.component';
 import { HomeLayoutComponent } from './store/home-layout.component';
 
 
@@ -10,7 +10,7 @@ const routes: Routes = [
     path: '', component: HomeLayoutComponent
   },
   {
-    path: 'Designer-Linen', component: DesignerLinenLayoutComponent
+    path: 'shop', component: ShopLayoutComponent
   },
   {
     path: 'home', component: HomeLayoutComponent
