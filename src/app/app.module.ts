@@ -10,6 +10,7 @@ import { ShopLayoutComponent } from './store/shop-layout.component';
 import { HomeLayoutComponent } from './store/home-layout.component';
 import { DriversLayoutComponent } from './store/drivers-layout.component';
 import { SupportLayoutComponent } from './store/support-layout.component';
+import { AccountLayoutComponent } from './store/account-layout.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SupportLayoutComponent } from './store/support-layout.component';
     ShopLayoutComponent,
     HomeLayoutComponent,
     DriversLayoutComponent,
-    SupportLayoutComponent
+    SupportLayoutComponent,
+    AccountLayoutComponent
   ],
   imports: [
     BrowserModule,

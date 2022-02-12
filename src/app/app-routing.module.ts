@@ -5,6 +5,7 @@ import { ShopLayoutComponent } from './store/shop-layout.component';
 import { HomeLayoutComponent } from './store/home-layout.component';
 import { DriversLayoutComponent } from './store/drivers-layout.component';
 import { SupportLayoutComponent } from './store/support-layout.component';
+import { AccountLayoutComponent } from './store/account-layout.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,10 @@ const routes: Routes = [
     path: 'drivers', component: DriversLayoutComponent
   },
   {
-  path: 'support', component: SupportLayoutComponent
+    path: 'support', component: SupportLayoutComponent
+  },
+  {
+    path: 'account', component: AccountLayoutComponent
   },
 ];
 
