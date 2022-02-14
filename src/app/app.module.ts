@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { TopNavBarComponent } from './header/topnavbar.component';
-import { CategoryCardComponent } from './store/category.card.component';
+import { CategoryCardComponent } from './cards/category.card.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ShopLayoutComponent } from './store/shop-layout.component';
-import { HomeLayoutComponent } from './store/home-layout.component';
-import { DriversLayoutComponent } from './store/drivers-layout.component';
-import { SupportLayoutComponent } from './store/support-layout.component';
-import { AccountLayoutComponent } from './store/account-layout.component';
+import { ShopLayoutComponent } from './layouts/shop-layout.component';
+import { HomeLayoutComponent } from './layouts/home-layout.component';
+import { DriversLayoutComponent } from './layouts/drivers-layout.component';
+import { SupportLayoutComponent } from './layouts/support-layout.component';
+import { AccountLayoutComponent } from './layouts/account-layout.component';
 
 
 @NgModule({

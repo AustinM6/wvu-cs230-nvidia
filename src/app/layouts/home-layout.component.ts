@@ -4,7 +4,7 @@ import { category_list } from "./category_list";
 import { first_news_list } from "./first_news_list";
 import { GamingItemModel } from "./gaming-list.model";
 import { gaming_list } from "./gaming_list";
-import { News1ItemModel } from "./news1-list.model";
+import { FirstNewsItemModel } from "./first-news-list.model";
 import { SecondNewsItemModel } from "./second-news-list.model";
 import { second_news_list } from "./second-news_list";
 
@@ -16,7 +16,7 @@ import { second_news_list } from "./second-news_list";
 export class HomeLayoutComponent {
     categories: CategoryItemModel[] = [];
     gamings: GamingItemModel[] = [];
-    news1: News1ItemModel[] = [];
+    news1: FirstNewsItemModel[] = [];
     news2: SecondNewsItemModel[] = [];
 
     constructor() {

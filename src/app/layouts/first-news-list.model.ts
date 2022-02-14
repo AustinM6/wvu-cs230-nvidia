@@ -1,4 +1,4 @@
-export class News1ItemModel{
+export class FirstNewsItemModel{
     img: string;
     name: string;
     description: string;
