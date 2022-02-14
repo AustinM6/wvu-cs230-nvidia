@@ -11,6 +11,7 @@ import { HomeLayoutComponent } from './layouts/home-layout.component';
 import { DriversLayoutComponent } from './layouts/drivers-layout.component';
 import { SupportLayoutComponent } from './layouts/support-layout.component';
 import { AccountLayoutComponent } from './layouts/account-layout.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AccountLayoutComponent } from './layouts/account-layout.component';
     HomeLayoutComponent,
     DriversLayoutComponent,
     SupportLayoutComponent,
-    AccountLayoutComponent
+    AccountLayoutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

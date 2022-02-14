@@ -8,7 +8,7 @@ import { Component, Input } from "@angular/core";
 export class CategoryCardComponent{
     @Input() img: string;
     @Input() name: string;
-    @Input()description: string;
+    @Input() description: string;
 
     constructor(){
         this.img = "";
