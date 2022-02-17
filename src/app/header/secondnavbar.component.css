@@ -31,3 +31,7 @@ height: 30px;
 .item-color{
 	color:gray;
 }
+
+.dropdown{
+    display: left;
+}
