@@ -1,0 +1,33 @@
+.dropdown-menu li{ position: relative; 	}
+.nav-item .submenu{ 
+	display: none;
+	position: absolute;
+	left:100%; top:-7px;
+
+}
+.nav-item .submenu-left{ 
+	right:100%; left:auto;
+}
+.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+.dropdown-menu > li:hover > .submenu{ display: block; }
+
+.submenu-width{
+    width: 1200px;
+}
+.dropmenu-width{
+    width: 1000px;
+}
+.container-height{
+height: 30px;
+}
+.nav-item-color{
+    color:grey;
+}
+
+.c-submenu-width{
+	width: 800px;
+}
+
+.item-color{
+	color:gray;
+}

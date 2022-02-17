@@ -12,6 +12,7 @@ import { DriversLayoutComponent } from './layouts/drivers-layout.component';
 import { SupportLayoutComponent } from './layouts/support-layout.component';
 import { AccountLayoutComponent } from './layouts/account-layout.component';
 import { FooterComponent } from './footer/footer.component';
+import { SecondNavBarComponent } from './header/secondnavbar.component';
 
 
 @NgModule({
@@ -25,7 +26,9 @@ import { FooterComponent } from './footer/footer.component';
     DriversLayoutComponent,
     SupportLayoutComponent,
     AccountLayoutComponent,
-    FooterComponent
+    FooterComponent,
+    SecondNavBarComponent
+
   ],
   imports: [
     BrowserModule,
