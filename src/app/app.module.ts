@@ -13,6 +13,10 @@ import { SupportLayoutComponent } from './layouts/support-layout.component';
 import { AccountLayoutComponent } from './layouts/account-layout.component';
 import { FooterComponent } from './footer/footer.component';
 import { SecondNavBarComponent } from './header/secondnavbar.component';
+import { ShopCarouselComponent } from './carousel/shop-carousel.component';
+import { ShopNavBarComponent } from './header/shop-navbar.component';
+import { SupportCardComponent } from './cards/support.card.component';
+import { ShopCardComponent } from './cards/shop.card.component';
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { SecondNavBarComponent } from './header/secondnavbar.component';
     SupportLayoutComponent,
     AccountLayoutComponent,
     FooterComponent,
-    SecondNavBarComponent
+    SecondNavBarComponent,
+    ShopCarouselComponent,
+    ShopNavBarComponent,
+    SupportCardComponent,
+    ShopCardComponent
 
   ],
   imports: [

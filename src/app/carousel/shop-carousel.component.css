@@ -1,0 +1,50 @@
+.carousel-inner{
+    height: 350px;
+}
+
+.item, img{
+    height: 350px !important;
+    width:  100% !important;
+}
+.btn{
+    background-color: yellowgreen;
+}
+.carousel-middle{
+    top: 100px;
+    left: 250px;
+
+}
+.carousel-center{
+    top: 175px;
+    left: 25px;
+}
+
+.play-color{
+    color:white
+}
+
+.play-color1{
+    color: yellowgreen
+}
+.shield-color{
+    color: white
+}
+
+.shield-color1{
+    color: yellowgreen
+}
+
+.jet-color{
+    color: yellowgreen
+}
+.jet-color2{
+    color: white
+}
+
+.worker-color{
+    color:white
+}
+
+.worker-color1{
+    color: yellowgreen
+}

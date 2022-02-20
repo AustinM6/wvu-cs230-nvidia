@@ -1,1 +1,61 @@
-Shop will be implemented soon.
+
+<fm-shopnavbar>Loading...</fm-shopnavbar>
+
+<fm-shop-carousel>Loading...</fm-shop-carousel>
+
+<div>
+    &nbsp;
+</div>
+
+<div class="d-flex justify-content-center">
+    <h1 style="color:yellowgreen">GAMING AND ENTERTAINMENT</h1>
+</div>
+<div class="container-fluid d-flex justify-content-center">
+    <div class="row row-cols-4 align-items-start">
+        <div *ngFor="let shop of shops">
+            <fm-shop-card img={{shop.img}} name={{shop.name}} description={{shop.description}}>
+                Loading...
+            </fm-shop-card>
+        </div>
+    </div>
+</div>
+
+<div>
+    &nbsp;
+</div>
+
+<div class="d-flex justify-content-center">
+    <h1 style="color:yellowgreen">GRAPHICS CARDS, LAPTOPS AND EMBEDDED SYSTEMS</h1>
+</div>
+<div class="container-fluid d-flex justify-content-center">
+    <div class="row row-cols-4 align-items-start">
+        <div *ngFor="let shop2 of shops2">
+            <fm-shop-card img={{shop2.img}} name={{shop2.name}} description={{shop2.description}}>
+                Loading...
+            </fm-shop-card>
+        </div>
+    </div>
+</div>
+
+<div>
+    &nbsp;
+</div>
+
+<div class="d-flex justify-content-center">
+    <h1 style="color:yellowgreen">NETWORKING</h1>
+</div>
+<div class="container-fluid d-flex justify-content-center">
+    <div class="row row-cols-3 align-items-start">
+        <div *ngFor="let shop3 of shops3">
+            <fm-shop-card img={{shop3.img}} name={{shop3.name}} description={{shop3.description}}>
+                Loading...
+            </fm-shop-card>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <a class=" text-color" href="#" >
+        img: 
+    </a>
+</div>

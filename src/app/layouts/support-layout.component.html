@@ -1,1 +1,17 @@
-Support will be implemented soon.
+<div class="text-center">
+    <h1 class=" display-4 title-color title">NVIDIA SUPPORT</h1>
+    <p class="mb-0">NVIDIA's support services are designed to meet the needs of both consumer and enterprise</p>
+    <p>customer, with multiple options to help ensure an exceptional customer experience.</p>
+    <p>Please select the appropriate option below to learn more.</p>
+
+</div>
+
+<div class="container-fluid d-flex justify-content-center">
+    <div class="row row-cols-4 align-items-start">
+        <div *ngFor="let support of supports">
+            <fm-support-card name={{support.name}} description={{support.description}} link={{support.link}}>
+                Loading...
+            </fm-support-card>
+        </div>
+    </div>
+</div>
