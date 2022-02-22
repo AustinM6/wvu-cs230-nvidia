@@ -1,3 +1,5 @@
+<fm-topnavbar>Loading...</fm-topnavbar>
+
 <div class="text-center">
     <h1 class=" display-4 title-color title">NVIDIA SUPPORT</h1>
     <p class="mb-0">NVIDIA's support services are designed to meet the needs of both consumer and enterprise</p>
@@ -9,9 +11,13 @@
 <div class="container-fluid d-flex justify-content-center">
     <div class="row row-cols-4 align-items-start">
         <div *ngFor="let support of supports">
-            <fm-support-card name={{support.name}} description={{support.description}} link={{support.link}}>
+            <fm-support-card name={{support.name}} description1={{support.description1}} description2={{support.description2}} description3={{support.description3}} description4={{support.description4}} description5={{support.description5}} link={{support.link}}>
                 Loading...
             </fm-support-card>
         </div>
     </div>
 </div>
+
+<fm-footer>Loading...</fm-footer>
+
+<fm-second-footer>Loading...</fm-second-footer>

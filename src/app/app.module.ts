@@ -17,6 +17,7 @@ import { ShopCarouselComponent } from './carousel/shop-carousel.component';
 import { ShopNavBarComponent } from './header/shop-navbar.component';
 import { SupportCardComponent } from './cards/support.card.component';
 import { ShopCardComponent } from './cards/shop.card.component';
+import { SecondFooterComponent } from './footer/second-footer.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ShopCardComponent } from './cards/shop.card.component';
     ShopCarouselComponent,
     ShopNavBarComponent,
     SupportCardComponent,
-    ShopCardComponent
+    ShopCardComponent,
+    SecondFooterComponent
 
   ],
   imports: [

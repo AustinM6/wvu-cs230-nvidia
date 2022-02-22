@@ -1,3 +1,37 @@
-.bg-color{
-    color: blue
+.photo-width{
+    width: 100%;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.centered{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.title-color{
+    color: yellowgreen
+}
+
+.centered1{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: yellowgreen;
+}
+
+.centered2{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
 }
