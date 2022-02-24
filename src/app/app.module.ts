@@ -18,6 +18,8 @@ import { ShopNavBarComponent } from './header/shop-navbar.component';
 import { SupportCardComponent } from './cards/support.card.component';
 import { ShopCardComponent } from './cards/shop.card.component';
 import { SecondFooterComponent } from './footer/second-footer.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component'
 
 
 @NgModule({
@@ -37,12 +39,14 @@ import { SecondFooterComponent } from './footer/second-footer.component';
     ShopNavBarComponent,
     SupportCardComponent,
     ShopCardComponent,
-    SecondFooterComponent
+    SecondFooterComponent,
+    UserInfoComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
