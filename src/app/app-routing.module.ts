@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { ShopLayoutComponent } from './layouts/shop-layout.component';
-import { HomeLayoutComponent } from './layouts/home-layout.component';
-import { DriversLayoutComponent } from './layouts/drivers-layout.component';
-import { SupportLayoutComponent } from './layouts/support-layout.component';
-import { AccountLayoutComponent } from './layouts/account-layout.component';
+import { ShopLayoutComponent } from './shop-page/shop-layout.component';
+import { HomeLayoutComponent } from './home-page/home-layout.component';
+import { DriversLayoutComponent } from './drivers-page/drivers-layout.component';
+import { SupportLayoutComponent } from './support-page/support-layout.component';
+import { AccountLayoutComponent } from './account-page/account-layout.component';
 
 
 const routes: Routes = [
