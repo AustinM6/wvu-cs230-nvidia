@@ -3,12 +3,12 @@ export const gaming_list = [
     {
         img: "/assets/r6.jpg",
         name: "Frames Win Games",
-        description: "Nvidia Reflex and DLSS Avaiable Now.",
+        description: "Nvidia Reflex and DLSS Available Now.",
     },
     {
         img: "/assets/RTX-its-on.jpg",
         name: "RTX. It's On.",
-        description: "Nvidia DLSS and Reflex Avaiable Now. ",
+        description: "Nvidia DLSS and Reflex Available Now. ",
     },
     {
         img: "/assets/CES-2022.jpg",

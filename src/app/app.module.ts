@@ -20,6 +20,8 @@ import { ShopCardComponent } from './cards/shop.card.component';
 import { SecondFooterComponent } from './footer/second-footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component'
+import { DriversNavBarComponent } from './header/drivers-navbar.component';
+import { SecondDriversNavBarComponent } from './header/second-drivers-navbar.component';
 
 
 @NgModule({
@@ -41,6 +43,8 @@ import { UserInfoComponent } from './user-info/user-info.component'
     ShopCardComponent,
     SecondFooterComponent,
     UserInfoComponent,
+    DriversNavBarComponent,
+    SecondDriversNavBarComponent
 
   ],
   imports: [
