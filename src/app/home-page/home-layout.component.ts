@@ -9,6 +9,8 @@ import { SecondNewsItemModel } from "./second-news-list.model";
 import { second_news_list } from "./second-news_list";
 import { ProductService } from "./products.service";
 import { GamingService } from "./gaming.service";
+import { FirstNewsService } from "./first-news.service";
+import { SecondNewsService } from "./second-news.service";
 
 @Component({
     selector: 'fm-home-layout',
@@ -21,17 +23,9 @@ export class HomeLayoutComponent implements OnInit {
     news1: FirstNewsItemModel[] = [];
     news2: SecondNewsItemModel[] = [];
 
-    constructor(private ProductService: ProductService, private GamingService: GamingService) {
+    constructor(private ProductService: ProductService, private GamingService: GamingService, private FirstNewsService: FirstNewsService, private SecondNewsService: SecondNewsService) {
 
 
-        for (var new1 of first_news_list) {
-            console.log(new1);
-            this.news1.push(new1);
-        }
-        for (var new2 of second_news_list) {
-            console.log(new2);
-            this.news2.push(new2);
-        }
     }
 
     ngOnInit(): void {
@@ -46,6 +40,18 @@ export class HomeLayoutComponent implements OnInit {
             console.log(data);
             for (var gaming of data) {
                 this.gamings.push(gaming);
+            }
+        });
+        this.FirstNewsService.getNews().subscribe(data => {
+            console.log(data);
+            for (var new1 of data) {
+                this.news1.push(new1);
+            }
+        });
+        this.SecondNewsService.getSecondNews().subscribe(data => {
+            console.log(data);
+            for (var new2 of data) {
+                this.news2.push(new2);
             }
         });
     }

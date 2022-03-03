@@ -11,7 +11,7 @@ export const first_news_list = [
     },
     {
         img: "/assets/n3.jpg ",
-        name: "NVIDIA BlueField Sets New World Record for DPU Performance",
+        name: "NVIDIA BlueField Sets New World Record for GPU Performance",
         description: "The data processing unit beats the previous record by more than 4X, exceeding 41 million IOPS between the server and storage.",
     },
     {
