@@ -1,6 +1,5 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { FirstNewsItemModel } from "./first-news-list.model";
 import { SecondNewsItemModel } from "./second-news-list.model";
 
 @Injectable({
@@ -8,7 +7,7 @@ import { SecondNewsItemModel } from "./second-news-list.model";
 })
 export class SecondNewsService{
     private baseUrl:string = 'https://nvidia-de14c-default-rtdb.firebaseio.com/';
-    private secondNewsEndPoint:string = 'news.json';
+    private secondNewsEndPoint:string = 'news2.json';
 
     constructor(private http:HttpClient){
 
@@ -19,6 +18,6 @@ export class SecondNewsService{
     }
 
     public getSecondNew(index:number){
-        return this.http.get<SecondNewsItemModel []>(this.baseUrl + 'newss/' + index + '.json')
+        return this.http.get<SecondNewsItemModel []>(this.baseUrl + 'news2/' + index + '.json')
     }
 }
