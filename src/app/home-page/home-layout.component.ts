@@ -1,12 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { CategoryItemModel } from "./category-item.model";
-import { category_list } from "./category_list";
-import { first_news_list } from "./first_news_list";
 import { GamingItemModel } from "./gaming-list.model";
-import { gaming_list } from "./gaming_list";
 import { FirstNewsItemModel } from "./first-news-list.model";
 import { SecondNewsItemModel } from "./second-news-list.model";
-import { second_news_list } from "./second-news_list";
 import { ProductService } from "./products.service";
 import { GamingService } from "./gaming.service";
 import { FirstNewsService } from "./first-news.service";
