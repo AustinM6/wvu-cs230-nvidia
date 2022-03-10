@@ -1,23 +1,23 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { CategoryItemModel } from "./category-item.model";
+
 
 @Injectable({
     providedIn: 'root'
 })
 export class ProductService{
-    private baseUrl:string = 'https://nvidia-de14c-default-rtdb.firebaseio.com/';
-    private productsEndPoint:string = 'products.json';
 
-    constructor(private http:HttpClient){
+    constructor(private db: AngularFireDatabase) { 
 
     }
 
+
     public getProducts(){
-        return this.http.get<CategoryItemModel []>(this.baseUrl + this.productsEndPoint);
+       return this.db.list<CategoryItemModel>("products").valueChanges();
     }
 
     public getProduct(index:number){
-        return this.http.get<CategoryItemModel []>(this.baseUrl + 'products/' + index + '.json')
+       
     }
 }

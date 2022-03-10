@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "nvidia-de14c"
+  },
+  "targets": {
+    "nvidia-de14c": {
+      "hosting": {
+        "nvidia": [
+          "nvidia-de14c"
+        ]
+      }
+    }
+  }
+}

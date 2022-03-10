@@ -22,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component'
 import { DriversNavBarComponent } from './header/drivers-navbar.component';
 import { SecondDriversNavBarComponent } from './header/second-drivers-navbar.component';
-
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire/compat'
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { SecondDriversNavBarComponent } from './header/second-drivers-navbar.com
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

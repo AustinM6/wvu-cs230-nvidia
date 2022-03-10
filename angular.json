@@ -106,6 +106,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "nvidia:build:production",
+            "firebaseProject": "nvidia-de14c",
+            "firebaseHostingSite": "nvidia-de14c"
+          }
         }
       }
     }
