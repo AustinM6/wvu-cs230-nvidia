@@ -12,7 +12,6 @@ import { DriversLayoutComponent } from './drivers-page/drivers-layout.component'
 import { SupportLayoutComponent } from './support-page/support-layout.component';
 import { AccountLayoutComponent } from './account-page/account-layout.component';
 import { FooterComponent } from './footer/footer.component';
-import { SecondNavBarComponent } from './header/secondnavbar.component';
 import { ShopCarouselComponent } from './carousel/shop-carousel.component';
 import { ShopNavBarComponent } from './header/shop-navbar.component';
 import { SupportCardComponent } from './cards/support.card.component';
@@ -38,7 +37,6 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     SupportLayoutComponent,
     AccountLayoutComponent,
     FooterComponent,
-    SecondNavBarComponent,
     ShopCarouselComponent,
     ShopNavBarComponent,
     SupportCardComponent,
