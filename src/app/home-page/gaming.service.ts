@@ -1,23 +1,20 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { GamingItemModel } from "./gaming-list.model";
 
 @Injectable({
     providedIn: 'root'
 })
 export class GamingService{
-    private baseUrl:string = 'https://nvidia-de14c-default-rtdb.firebaseio.com/';
-    private gamingsEndPoint:string = 'gamings.json';
-
-    constructor(private http:HttpClient){
+    
+    constructor(private db: AngularFireDatabase){
 
     }
 
     public getGamings(){
-        return this.http.get<GamingItemModel []>(this.baseUrl + this.gamingsEndPoint);
+        return this.db.list<GamingItemModel>("gamings").valueChanges();
     }
 
     public getGaming(index:number){
-        return this.http.get<GamingItemModel []>(this.baseUrl + 'gamings/' + index + '.json')
     }
 }
