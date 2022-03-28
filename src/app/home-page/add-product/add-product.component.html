@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img" required>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Name Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="name" required>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Description Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description" required>
+                </div>
+
+                <button class="btn btn-outline-secondary my-4" type="submit" [disabled]="!postForm.valid">
+                    Add Product
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>

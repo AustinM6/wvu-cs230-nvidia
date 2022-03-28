@@ -11,10 +11,16 @@ export class GamingService{
 
     }
 
+  
     public getGamings(){
         return this.db.list<GamingItemModel>("gamings").valueChanges();
-    }
-
-    public getGaming(index:number){
-    }
 }
+ 
+     public getGaming(index:number){
+        
+}
+ 
+     public addGaming(gaming:GamingItemModel){
+         this.db.list<GamingItemModel>("gamings").push(gaming);
+     }
+ }

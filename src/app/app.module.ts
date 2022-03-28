@@ -24,6 +24,9 @@ import { SecondDriversNavBarComponent } from './header/second-drivers-navbar.com
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat'
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddProductComponent } from './home-page/add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
+import { AddGamingComponent } from './home-page/add-gaming/add-gaming.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,9 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     SecondFooterComponent,
     UserInfoComponent,
     DriversNavBarComponent,
-    SecondDriversNavBarComponent
+    SecondDriversNavBarComponent,
+    AddProductComponent,
+    AddGamingComponent,
 
   ],
   imports: [
@@ -52,7 +57,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
