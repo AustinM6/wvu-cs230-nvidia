@@ -26,7 +26,6 @@ import { AngularFireModule } from '@angular/fire/compat'
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductComponent } from './home-page/add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
-import { AddGamingComponent } from './home-page/add-gaming/add-gaming.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +48,6 @@ import { AddGamingComponent } from './home-page/add-gaming/add-gaming.component'
     DriversNavBarComponent,
     SecondDriversNavBarComponent,
     AddProductComponent,
-    AddGamingComponent,
 
   ],
   imports: [
