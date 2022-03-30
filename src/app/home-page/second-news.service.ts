@@ -17,4 +17,8 @@ export class SecondNewsService{
 
     public getSecondNew(index:number){
     }
+
+    public addSecondNew(news2:SecondNewsItemModel){
+        this.db.list<SecondNewsItemModel>("news1").push(news2);
+    }
 }

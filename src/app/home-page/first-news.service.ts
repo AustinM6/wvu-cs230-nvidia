@@ -12,9 +12,13 @@ export class FirstNewsService{
     }
 
     public getNews(){
-        return this.db.list<FirstNewsItemModel>("news").valueChanges();
+        return this.db.list<FirstNewsItemModel>("news1").valueChanges();
     }
 
     public getNew(index:number){
+    }
+
+    public addFirstNew(news1:FirstNewsItemModel){
+        this.db.list<FirstNewsItemModel>("news1").push(news1);
     }
 }

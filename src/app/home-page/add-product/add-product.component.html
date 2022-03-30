@@ -29,6 +29,24 @@
                 </button>
 
             </form>
+
+            <form #postForm="ngForm" (ngSubmit)="addGaming(postForm.value)">
+                <button class="btn btn-outline-secondary my-4" type="submit" [disabled]="!postForm.valid">
+                    Add Gaming
+                </button>
+            </form>
+
+            <form #postForm="ngForm" (ngSubmit)="addFirstNew(postForm.value)">
+                <button class="btn btn-outline-secondary my-4" type="submit" [disabled]="!postForm.valid">
+                    Add First News
+                </button>
+            </form>
+
+            <form #postForm="ngForm" (ngSubmit)="addSecondNew(postForm.value)">
+                <button class="btn btn-outline-secondary my-4" type="submit" [disabled]="!postForm.valid">
+                    Add Second News
+                </button>
+            </form>
         </div>
     </div>
 </div>
