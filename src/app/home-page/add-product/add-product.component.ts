@@ -17,7 +17,7 @@ export class AddProductComponent implements OnInit {
   }
 
   addProduct(product:CategoryItemModel){
-    console.log("You pressed add product");
+    console.log("You pressed add");
     console.log(product);
     this.ps.addProduct(product)
   }
