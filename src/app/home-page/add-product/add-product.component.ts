@@ -34,10 +34,10 @@ export class AddProductComponent implements OnInit {
     this.gs.addGaming(gaming)
   }
 
-  addFirstNew(news1:FirstNewsItemModel){
+  addFirstNew(news:FirstNewsItemModel){
     console.log("You pressed add");
-    console.log(news1);
-    this.fs.addFirstNew(news1)
+    console.log(news);
+    this.fs.addFirstNew(news)
   }
 
   addSecondNew(news2:SecondNewsItemModel){
