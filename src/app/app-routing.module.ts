@@ -7,6 +7,7 @@ import { DriversLayoutComponent } from './drivers-page/drivers-layout.component'
 import { SupportLayoutComponent } from './support-page/support-layout.component';
 import { AccountLayoutComponent } from './account-page/account-layout.component';
 import { AddProductComponent } from './home-page/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,9 @@ const routes: Routes = [
   },
   {
     path: 'admin', component: AddProductComponent 
+  },
+  {
+    path: 'auth', component: AuthenticationComponent
   },
   {
     path: 'shop', component: ShopLayoutComponent
